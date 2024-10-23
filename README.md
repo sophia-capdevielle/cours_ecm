@@ -19,13 +19,13 @@ The front is coded with Angular 17. It uses Angular material framework.
 
 ## Build back
 
-`python manage.py sqlmigrate jobs 0001`
+`python3 manage.py sqlmigrate jobs 0001`
 
-`python manage.py migrate`
+`python3 manage.py migrate`
 
-`python manage.py createsuperuser`
+`python3 manage.py createsuperuser`
 
-`python manage.py runserver`
+`python3 manage.py runserver`
 
 ## Build front
 

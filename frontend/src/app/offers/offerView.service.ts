@@ -50,7 +50,7 @@ export class OfferViewService {
         }
 
         console.log(this.apiUrl + '/offers?' + query);
-        this.httpClient.get<any>(this.apiUrl + '/offers?' + query).subscribe(
+        this.httpClient.get<any>(this.apiUrl + '/jobs/offers' + query).subscribe(
             (response) => {
                 this.listOffers = [];
                 console.log('Found ' + response.length + ' offers matching the filter');
